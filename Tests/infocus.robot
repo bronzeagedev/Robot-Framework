@@ -9,7 +9,7 @@ Library    SeleniumLibrary
 
 
 *** Test Cases ***
-Naivgate to Amazon, search for Dune and click on the link
+Naivgate to Infocusworkshops, click on Courses Link
     [Documentation]    Test whether I can open Infocus Workshops
     [Tags]    Smoke Chrome
     open browser    http://www.infocusworkshops.com    chrome
