@@ -14,6 +14,7 @@ Naivgate to Amazon, search for Dune and click on the link
     [Tags]    Smoke Chrome
     open browser    http://www.infocusworkshops.com    chrome
     sleep    3s
+    click link    css=#comp-js57ymor1 > a
     close browser
 
 
