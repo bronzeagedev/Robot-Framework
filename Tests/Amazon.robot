@@ -3,7 +3,7 @@ Documentation    Testing Amazon
 Library    SeleniumLibrary
 
 # Type this into the terminal to run this script
-# robot -d results tests/dune.robot
+# robot -d results tests/amazon.robot
 
 *** Variables ***
 
