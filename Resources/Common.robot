@@ -2,13 +2,17 @@
 Documentation    Common Keywords
 Library    SeleniumLibrary
 
+
 *** Variables ***
-${URL}
-${BROWSER}
+${URL} =    http://www.amazon.com
+${BROWSER} =    chrome
+${SEARCH_TERM} =    Tommy yacht jacket
+${PRODUCT_SIZE} =    Large
+
 
 *** Keywords ***
 Begin web test
-    open browser    about:blank    chrome
+    open browser    about:blank    ${BROWSER}
     maximize browser window
 
 End web test

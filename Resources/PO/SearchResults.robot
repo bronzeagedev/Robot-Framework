@@ -1,10 +1,12 @@
 *** Settings ***
 Documentation    Search results page objects
 Library    SeleniumLibrary
+Resource    ../Resources/Common.robot
+
 
 *** Keywords ***
 Verify search results display product
-    wait until page contains    results for "Tommy yacht jacket"
+    wait until page contains    results for "${SEARCH_TERM}"
 
 Select product from search results
     [Documentation]    Click on the first product in the search results
