@@ -1,5 +1,9 @@
 *** Settings ***
 Documentation    Amazon header menu navigation items
+Library    SeleniumLibrary
+
+*** Variables ***
+
 
 ***** Keywords ***
 
@@ -9,7 +13,7 @@ Search for Products
 
 
 Enter Search Term
-    Input Text
+    Input Text    id=    Dune
 
 Submit Search
-    Input Text
+    Click Button
