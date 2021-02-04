@@ -33,7 +33,7 @@ Begin web test
 
 Search for products
     go to    http://www.amazon.com.au
-    wait until page contains    Your Amazon.com
+    wait until page contains    Amazon.com.au
     sleep    3s
     input text    id=twotabsearchtextbox    dune
     click button    css=#nav-search-submit-button
