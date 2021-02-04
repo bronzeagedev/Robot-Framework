@@ -26,10 +26,12 @@ Cleanup testing data
 
 Custom Keyword 1
     Log    Executing keyword 1
+
 Custom Keyword 2
     Log    Executing keyword 2
 
 Custom Keyword 3
     Log    Executing keyword 3
+
 Custom Keyword 4
     Log    Executing keyword 4
