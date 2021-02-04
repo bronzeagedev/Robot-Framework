@@ -13,7 +13,7 @@ Test Teardown    End Web Test
 
 
 *** Test Cases ***
-Naivgate to Amazon, search for Dune and click on the link
+Navigate to Amazon, search for Dune and click on the link
     [Documentation]    Basic test info
     [Tags]    Smoke
 

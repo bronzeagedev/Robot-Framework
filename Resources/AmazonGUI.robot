@@ -16,11 +16,11 @@ Select product from search results
     wait until page contains    Back to results
 
 Add product to cart
-    click button    id=#add-to-cart-button
+    click button    id=add-to-cart-button
     wait until page contains    Added to Cart
 
 Begin checkout
-    click button    id=hlb-ptc-btn
+    click link    Proceed to checkout
     page should contain  Sign-In
     page should contain    Email or mobile phone number
 
