@@ -32,7 +32,7 @@ Begin web test
     maximize browser window
 
 Search for products
-    go to    http://www.amazon.com    chrome
+    go to    http://www.amazon.com.au
     wait until page contains    Your Amazon.com
     sleep    3s
     input text    id=twotabsearchtextbox    dune
