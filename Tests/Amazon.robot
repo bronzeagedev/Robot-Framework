@@ -21,8 +21,8 @@ Naivgate to Amazon, search for Dune and click on the link
     Begin web test
     Search for products
     Select product from search results
-#    Add product to cart
-#    Begin checkout
+    Add product to cart
+    Begin checkout
     End web test
 
 
