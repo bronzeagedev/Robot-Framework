@@ -13,7 +13,13 @@ Test Teardown    End Web Test
 
 
 *** Test Cases ***
-Navigate to Amazon, search for Dune and click on the link
+User searches for products
+    [Documentation]    Basic test info
+    [Tags]    Smoke
+
+    AmazonGUI.Search for products
+
+User must sign in to check out
     [Documentation]    Basic test info
     [Tags]    Smoke
 
@@ -21,5 +27,3 @@ Navigate to Amazon, search for Dune and click on the link
     AmazonGUI.Select product from search results
     AmazonGUI.Add product to cart
     AmazonGUI.Begin checkout
-
-
