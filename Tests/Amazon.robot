@@ -1,6 +1,10 @@
 *** Settings ***
 Documentation    Testing Amazon
-Library    SeleniumLibrary
+# WE are no longer referencing the SeleniumLibrary in this script
+Resource    Resources/Common-Keywords.robot
+Resource    Resources/Amazon-Keywords.robot
+Test Setup    Begin Web Test
+Test Teardown    End Web Test
 
 # Type this into the terminal to run this script
 # robot -d results tests/amazon.robot
