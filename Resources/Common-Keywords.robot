@@ -1,12 +1,15 @@
 *** Settings ***
 Documentation    Common Keywords
 Library    SeleniumLibrary
-*** Variables ***
 
+*** Variables ***
+${URL}    about:blank
+${BROWSER}    chrome
 
 *** Keywords ***
 Begin Web Test
-    open browser    http://www.amazon.com.au    chrome
+    open browser    ${URL}    ${BROWSER}
+    maximize browser window
 
 End Web Test
     close browser
