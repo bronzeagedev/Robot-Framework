@@ -2,18 +2,13 @@
 Documentation    Amazon header menu navigation items
 Library    SeleniumLibrary
 
-*** Variables ***
-
-
-***** Keywords ***
-
-Search for Products
+*** Keywords ***
+Search for product
     Enter Search Term
     Submit Search
 
-
 Enter Search Term
-    Input Text    id=    Dune
+    input text    id=twotabsearchtextbox    Tommy yacht jacket
 
 Submit Search
-    Click Button
+    click button    css=#nav-search-submit-button
