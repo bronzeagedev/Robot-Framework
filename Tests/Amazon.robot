@@ -17,11 +17,9 @@ Navigate to Amazon, search for Dune and click on the link
     [Documentation]    Basic test info
     [Tags]    Smoke
 
-    Common.Begin web test
     AmazonGUI.Search for products
     AmazonGUI.Select product from search results
     AmazonGUI.Add product to cart
     AmazonGUI.Begin checkout
-    Common.End web test
 
 
