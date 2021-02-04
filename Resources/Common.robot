@@ -3,13 +3,13 @@ Documentation    Common Keywords
 Library    SeleniumLibrary
 
 *** Variables ***
-${URL}    about:blank
-${BROWSER}    chrome
+${URL}
+${BROWSER}
 
 *** Keywords ***
-Begin Web Test
-    open browser    ${URL}    ${BROWSER}
+Begin web test
+    open browser    about:blank    chrome
     maximize browser window
 
-End Web Test
+End web test
     close browser
