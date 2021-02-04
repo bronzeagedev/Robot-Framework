@@ -29,6 +29,7 @@ Naivgate to Amazon, search for Dune and click on the link
 *** Keywords ***
 Begin web test
     open browser    about:blank    chrome
+    maximize browser window
 
 Search for products
     go to    http://www.amazon.com    chrome
@@ -42,12 +43,12 @@ Select product from search results
     click link    css=#search > div.s-desktop-width-max.s-desktop-content.sg-row > div.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span:nth-child(4) > div.s-main-slot.s-result-list.s-search-results.sg-row > div:nth-child(3) > div > span > div > div > div:nth-child(2) > div.sg-col-4-of-12.sg-col-8-of-16.sg-col-12-of-20.sg-col > div > div:nth-child(1) > div > div > div:nth-child(1) > h2 > a
     wait until page contains    Back to search results
 
-Add product to cart
-    click button    id=
-    wait until page contains    1 item added to cart
+#Add product to cart
+#    click button    id=
+#    wait until page contains    1 item added to cart
 
-Begin checkout
-    click link    Proceed to checkout
+#Begin checkout
+#    click link    Proceed to checkout
 
 End web test
     close browser
