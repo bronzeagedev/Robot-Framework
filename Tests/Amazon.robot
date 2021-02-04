@@ -21,13 +21,13 @@ User searches for products
     [Documentation]    Basic test info
     [Tags]    Smoke
 
-    AmazonGUI.Search for products
+    Search for products
 
 User must sign in to check out
     [Documentation]    Basic test info
     [Tags]    Smoke
 
-    AmazonGUI.Search for products
-    AmazonGUI.Select product from search results
-    AmazonGUI.Add product to cart
-    AmazonGUI.Begin checkout
+    Search for products
+    Select product from search results
+    Add product to cart
+    Begin checkout
