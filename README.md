@@ -13,7 +13,19 @@ robot -N "String for name" -d results -i "tag" tests
 -i: Faster and easier to specify and run, but downside is more cluttered log.
 
 
+#VARIABLES
 
+Scalar variables 
+
+${variable}
+
+
+
+List variables 
+
+${variable name} =  data1 data2 data3
+
+$the_variable_name} = set variable data1 data2 data3
 
 
 
