@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 
 
 *** Variables ***
-${URL} =    http://www.amazon.com
+${URL} =    http://www.amazon.com.au
 ${BROWSER} =    chrome
 ${SEARCH_TERM} =    Tommy yacht jacket
 ${PRODUCT_SIZE} =    Large
