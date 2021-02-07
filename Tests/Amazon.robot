@@ -12,10 +12,7 @@ Suite Teardown    Cleanup testing data
 # robot -d results tests/amazon.robot
 
 *** Variables ***
-${URL} =    http://www.amazon.com.au
-${BROWSER} =    chrome
-${SEARCH_TERM} =    Tommy yacht jacket
-${PRODUCT_SIZE} =    Large
+
 
 *** Test Cases ***
 User searches for products

@@ -2,7 +2,6 @@
 Documentation    Product Page Objects
 Library    SeleniumLibrary
 Resource    ../Resources/Common.robot
-Resource    ../Tests/Amazon.robot
 
 
 *** Keywords ***

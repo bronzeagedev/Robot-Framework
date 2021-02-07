@@ -2,7 +2,6 @@
 Documentation    Landing Page navigation items
 Library    SeleniumLibrary
 Resource    ../Resources/Common.robot
-Resource    ../Tests/Amazon.robot
 
 *** Keywords ***
 Load url
