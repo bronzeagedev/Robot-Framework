@@ -2,6 +2,7 @@
 Documentation    Search results page objects
 Library    SeleniumLibrary
 Resource    ../Resources/Common.robot
+Resource    ../Tests/Amazon.robot
 
 
 *** Keywords ***

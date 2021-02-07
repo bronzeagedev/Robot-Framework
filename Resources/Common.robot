@@ -4,15 +4,11 @@ Library    SeleniumLibrary
 
 
 *** Variables ***
-${URL} =    http://www.amazon.com.au
-${BROWSER} =    chrome
-${SEARCH_TERM} =    Tommy yacht jacket
-${PRODUCT_SIZE} =    Large
-
 
 *** Keywords ***
 Begin web test
-    open browser    about:blank    ${BROWSER}
+    [Arguments]    ${url}    ${browser}
+    open browser    ${url}    ${browser}
     maximize browser window
 
 End web test
