@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation    Testing Amazon
-Resource    ../Resources/Common.robot
-Resource    ../Resources/AmazonGUI.robot
+
 
 # Type this into the terminal to run this script
 # robot -d results tests/variables.robot

@@ -29,11 +29,3 @@ User must sign in to check out
     AmazonGUI.Begin checkout
 
 
-Set a variable in the test case
-    [Documentation]    This is a fake test to show how you can log a variable at runtime
-    [Tags]    Current
-    ${myNewVariable} =    set variable    My new variable
-    Log    ${myNewVariable}
-
-Variable Demonstration
-    Log  ${MY_VARIABLE}
