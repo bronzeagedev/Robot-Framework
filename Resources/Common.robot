@@ -10,7 +10,7 @@ ${PRODUCT_SIZE} =    Large
 
 *** Keywords ***
 Begin web test
-    [Arguments]    ${url}    ${browser}
+#    [Arguments]    ${url}    ${browser}
     open browser    ${url}    ${browser}
     maximize browser window
 
