@@ -2,7 +2,12 @@
 Documentation    Amazon header menu navigation items
 Library    SeleniumLibrary
 Resource    ../Resources/Common.robot
+Resource    ../Resources/AmazonGUI.robot
 
+
+*** Variables ***
+${HEADER_SEARCH_BAR} =    id=twotabsearchtextbox
+${SUBMIT_SEARCH_BUTTON} =    css=#nav-search-submit-button
 
 *** Keywords ***
 Search for product
@@ -10,7 +15,7 @@ Search for product
     Submit Search
 
 Enter Search Term
-    input text    id=twotabsearchtextbox    ${SEARCH_TERM}
+    input text    ${HEADER_SEARCH_BAR}    ${SEARCH_TERM}
 
 Submit Search
-    click button    css=#nav-search-submit-button
+    click button    ${SUBMIT_SEARCH_BUTTON}

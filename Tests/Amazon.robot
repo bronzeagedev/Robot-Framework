@@ -13,10 +13,10 @@ Suite Teardown    Cleanup testing data
 
 # robot -d results -v browser:chrome -v search_term:tommy yacht jacket -i smoke tests/amazon.robot
 
-*** Variables ***
-
-
 *** Test Cases ***
+User can Login
+    AmazonGUI.Login     ${LOGIN_EMAIL}    ${LOGIN_PASSWORD}
+
 Logged out user can search for product
     [Documentation]    Basic test info
     [Tags]    Smoke

@@ -7,8 +7,25 @@ Resource    ../Resources/PO/Product.robot
 Resource    ../Resources/PO/SearchResults.robot
 Resource    ../Resources/PO/SignIn.robot
 
+*** Variables ***
+${URL} =    http://www.amazon.com.au
+${BROWSER} =    chrome
+${SEARCH_TERM} =    Tommy yacht jacket
+${PRODUCT_SIZE} =    Large
+${LOGIN_EMAIL} =
+${LOGIN_PASSWORD} =
+
 
 *** Keywords ***
+Login
+    [Arguments]    ${Username}    ${Password}
+    SignIn.Login with valid credentials    ${Username}    ${Password}
+
+Login with invalid credentials
+    SignIn.Fill email field    fake@fakeemailaddress.com
+    SignIn.Fill password field    fakepassword
+    SignIn.Click sign in button
+
 Search for products
     LandingPage.Load url
     LandingPage.Verify page loaded
