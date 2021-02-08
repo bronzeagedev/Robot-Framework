@@ -6,19 +6,18 @@ Resource    ../Resources/AmazonGUI.robot
 
 *** Keywords ***
 Login with valid credentials
-    #[Arguments]    ${Username}    ${Password}
-    #Enter steps for someone to send keys to both the username and password field and then click enter
+    [Arguments]    ${LOGIN_EMAIL}    ${LOGIN_PASSWORD}
     Fill email field
     Fill password field
     Click sign in button
 
 Fill email field
-    [Arguments]    ${Username}
-    Log    Filling email field with    ${Username}
+    [Arguments]    ${LOGIN_EMAIL}
+    Log    Filling email field with    ${LOGIN_EMAIL}
 
 Fill password field
-    [Arguments]    ${Password}
-    Log    Filling password field with    ${Password}
+    [Arguments]    ${LOGIN_PASSWORD}
+    Log    Filling password field with    ${LOGIN_PASSWORD}
 
 Click sign in button
 

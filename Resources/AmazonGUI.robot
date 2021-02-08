@@ -17,8 +17,8 @@ ${LOGIN_PASSWORD} =    fakepassword001010110101
 
 *** Keywords ***
 Login
-    [Arguments]    ${Username}    ${Password}
-    SignIn.Login with valid credentials    ${Username}    ${Password}
+    [Arguments]    ${LOGIN_EMAIL}    ${LOGIN_PASSWORD}
+    SignIn.Login with valid credentials    ${LOGIN_EMAIL}    ${LOGIN_PASSWORD}
 
 Login with invalid credentials
     SignIn.Fill email field    fake@fakeemailaddress.com

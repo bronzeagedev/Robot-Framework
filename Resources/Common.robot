@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation    Common Keywords
 Library    SeleniumLibrary
+Resource    ../Resources/AmazonGUI.robot
 
 
 
