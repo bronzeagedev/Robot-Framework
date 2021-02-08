@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation    Product Page Objects
 Library    SeleniumLibrary
-Resource    ../Resources/Common.robot
 Resource    ../Resources/AmazonGUI.robot
 
 

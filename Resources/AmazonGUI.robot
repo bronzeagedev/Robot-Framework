@@ -1,6 +1,5 @@
 *** Settings ***
 Documentation
-Resource    ../Resources/PO/Cart.robot
 Resource    ../Resources/PO/HeaderNav.robot
 Resource    ../Resources/PO/LandingPage.robot
 Resource    ../Resources/PO/Product.robot
@@ -12,8 +11,8 @@ ${URL} =    http://www.amazon.com.au
 ${BROWSER} =    chrome
 ${SEARCH_TERM} =    Tommy yacht jacket
 ${PRODUCT_SIZE} =    Large
-${LOGIN_EMAIL} =
-${LOGIN_PASSWORD} =
+${LOGIN_EMAIL} =    esuohnednerb@hotmail.com
+${LOGIN_PASSWORD} =    fakepassword001010110101
 
 
 *** Keywords ***

@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation    Landing Page navigation items
 Library    SeleniumLibrary
-Resource    ../Resources/Common.robot
 Resource    ../Resources/AmazonGUI.robot
 
 *** Keywords ***
